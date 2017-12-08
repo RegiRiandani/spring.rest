@@ -33,7 +33,7 @@ public class GreetingController {
     	
     	  	
     	return data.stream()
-    			.filter(line->line.contains(prefix))// startsWith(prefix))
+    			.filter(line->line.contains(prefix))//startsWith(prefix))//contains(prefix))// startsWith(prefix))
     			.collect(Collectors.toList());
     }
 }
